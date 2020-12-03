@@ -1,3 +1,5 @@
+//Урок 1. Основы языка JavaScript
+
 'use strict';
 
 function celsiusToFahrenheit(tСelsius) {
