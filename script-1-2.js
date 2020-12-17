@@ -1,14 +1,14 @@
 'use strict';
 
 let board = [
-    ['Л', 'К', 'Сл', 'Ф', 'Кр', 'Сл', 'К', 'Л'],
+    ['Л', 'К', 'С', 'Ф', 'Кр', 'С', 'К', 'Л'],
     ['п', 'п', 'п', 'п', 'п', 'п', 'п', 'п'],
     [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
     [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
     [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
     [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
     ['п', 'п', 'п', 'п', 'п', 'п', 'п', 'п'],
-    ['Л', 'К', 'Сл', 'Ф', 'Кр', 'Сл', 'К', 'Л'],
+    ['Л', 'К', 'С', 'Ф', 'Кр', 'С', 'К', 'Л'],
 ];
 
 let tableBoard = document.createElement('table');
@@ -39,4 +39,4 @@ for (let x = 0; x < 9; x++) {
     tableBoard.appendChild(row);
 }
 
-document.body.appendChild(tableBoard);
+document.body.insertAdjacentElement('afterbegin', tableBoard);
